@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33BA84741A11D37900283339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA84731A11D37900283339 /* AppDelegate.swift */; };
+		33BA84761A11D37900283339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA84751A11D37900283339 /* ViewController.swift */; };
+		33BA84791A11D37A00283339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BA84771A11D37A00283339 /* Main.storyboard */; };
+		33BA847B1A11D37A00283339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BA847A1A11D37A00283339 /* Images.xcassets */; };
+		33BA847E1A11D37A00283339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33BA847C1A11D37A00283339 /* LaunchScreen.xib */; };
+		33BA848A1A11D37A00283339 /* Shake_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA84891A11D37A00283339 /* Shake_BiteTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33BA84841A11D37A00283339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BA84661A11D37900283339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33BA846D1A11D37900283339;
+			remoteInfo = "Shake Bite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33BA846E1A11D37900283339 /* Shake Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BA84721A11D37900283339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BA84731A11D37900283339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33BA84751A11D37900283339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33BA84781A11D37A00283339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33BA847A1A11D37A00283339 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33BA847D1A11D37A00283339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33BA84831A11D37A00283339 /* Shake BiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake BiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BA84881A11D37A00283339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BA84891A11D37A00283339 /* Shake_BiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_BiteTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33BA846B1A11D37900283339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BA84801A11D37A00283339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33BA84651A11D37900283339 = {
+			isa = PBXGroup;
+			children = (
+				33BA84701A11D37900283339 /* Shake Bite */,
+				33BA84861A11D37A00283339 /* Shake BiteTests */,
+				33BA846F1A11D37900283339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33BA846F1A11D37900283339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33BA846E1A11D37900283339 /* Shake Bite.app */,
+				33BA84831A11D37A00283339 /* Shake BiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33BA84701A11D37900283339 /* Shake Bite */ = {
+			isa = PBXGroup;
+			children = (
+				33BA84731A11D37900283339 /* AppDelegate.swift */,
+				33BA84751A11D37900283339 /* ViewController.swift */,
+				33BA84771A11D37A00283339 /* Main.storyboard */,
+				33BA847A1A11D37A00283339 /* Images.xcassets */,
+				33BA847C1A11D37A00283339 /* LaunchScreen.xib */,
+				33BA84711A11D37900283339 /* Supporting Files */,
+			);
+			path = "Shake Bite";
+			sourceTree = "<group>";
+		};
+		33BA84711A11D37900283339 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33BA84721A11D37900283339 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33BA84861A11D37A00283339 /* Shake BiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				33BA84891A11D37A00283339 /* Shake_BiteTests.swift */,
+				33BA84871A11D37A00283339 /* Supporting Files */,
+			);
+			path = "Shake BiteTests";
+			sourceTree = "<group>";
+		};
+		33BA84871A11D37A00283339 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33BA84881A11D37A00283339 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33BA846D1A11D37900283339 /* Shake Bite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BA848D1A11D37A00283339 /* Build configuration list for PBXNativeTarget "Shake Bite" */;
+			buildPhases = (
+				33BA846A1A11D37900283339 /* Sources */,
+				33BA846B1A11D37900283339 /* Frameworks */,
+				33BA846C1A11D37900283339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake Bite";
+			productName = "Shake Bite";
+			productReference = 33BA846E1A11D37900283339 /* Shake Bite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33BA84821A11D37A00283339 /* Shake BiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BA84901A11D37A00283339 /* Build configuration list for PBXNativeTarget "Shake BiteTests" */;
+			buildPhases = (
+				33BA847F1A11D37A00283339 /* Sources */,
+				33BA84801A11D37A00283339 /* Frameworks */,
+				33BA84811A11D37A00283339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33BA84851A11D37A00283339 /* PBXTargetDependency */,
+			);
+			name = "Shake BiteTests";
+			productName = "Shake BiteTests";
+			productReference = 33BA84831A11D37A00283339 /* Shake BiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33BA84661A11D37900283339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Okuda";
+				TargetAttributes = {
+					33BA846D1A11D37900283339 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					33BA84821A11D37A00283339 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 33BA846D1A11D37900283339;
+					};
+				};
+			};
+			buildConfigurationList = 33BA84691A11D37900283339 /* Build configuration list for PBXProject "Shake Bite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33BA84651A11D37900283339;
+			productRefGroup = 33BA846F1A11D37900283339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33BA846D1A11D37900283339 /* Shake Bite */,
+				33BA84821A11D37A00283339 /* Shake BiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33BA846C1A11D37900283339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BA84791A11D37A00283339 /* Main.storyboard in Resources */,
+				33BA847E1A11D37A00283339 /* LaunchScreen.xib in Resources */,
+				33BA847B1A11D37A00283339 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BA84811A11D37A00283339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33BA846A1A11D37900283339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BA84761A11D37900283339 /* ViewController.swift in Sources */,
+				33BA84741A11D37900283339 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BA847F1A11D37A00283339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BA848A1A11D37A00283339 /* Shake_BiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33BA84851A11D37A00283339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33BA846D1A11D37900283339 /* Shake Bite */;
+			targetProxy = 33BA84841A11D37A00283339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33BA84771A11D37A00283339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BA84781A11D37A00283339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33BA847C1A11D37A00283339 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BA847D1A11D37A00283339 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33BA848B1A11D37A00283339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33BA848C1A11D37A00283339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33BA848E1A11D37A00283339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake Bite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33BA848F1A11D37A00283339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake Bite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33BA84911A11D37A00283339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shake BiteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake Bite.app/Shake Bite";
+			};
+			name = Debug;
+		};
+		33BA84921A11D37A00283339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shake BiteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake Bite.app/Shake Bite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33BA84691A11D37900283339 /* Build configuration list for PBXProject "Shake Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BA848B1A11D37A00283339 /* Debug */,
+				33BA848C1A11D37A00283339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BA848D1A11D37A00283339 /* Build configuration list for PBXNativeTarget "Shake Bite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BA848E1A11D37A00283339 /* Debug */,
+				33BA848F1A11D37A00283339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33BA84901A11D37A00283339 /* Build configuration list for PBXNativeTarget "Shake BiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BA84911A11D37A00283339 /* Debug */,
+				33BA84921A11D37A00283339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33BA84661A11D37900283339 /* Project object */;
+}
