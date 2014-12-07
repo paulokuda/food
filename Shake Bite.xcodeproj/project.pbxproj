@@ -13,6 +13,14 @@
 		33BA847B1A11D37A00283339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BA847A1A11D37A00283339 /* Images.xcassets */; };
 		33BA847E1A11D37A00283339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33BA847C1A11D37A00283339 /* LaunchScreen.xib */; };
 		33BA848A1A11D37A00283339 /* Shake_BiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA84891A11D37A00283339 /* Shake_BiteTests.swift */; };
+		33F2A7011A2A79A50097C314 /* bagel.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7001A2A79A50097C314 /* bagel.png */; };
+		33F2A7061A2A79BC0097C314 /* oe.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7021A2A79BC0097C314 /* oe.png */; };
+		33F2A7071A2A79BC0097C314 /* chipotle.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7031A2A79BC0097C314 /* chipotle.png */; };
+		33F2A7081A2A79BC0097C314 /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7041A2A79BC0097C314 /* starbucks.png */; };
+		33F2A7091A2A79BC0097C314 /* everyday.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7051A2A79BC0097C314 /* everyday.png */; };
+		33F2A7111A2A81BD0097C314 /* menuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7101A2A81BD0097C314 /* menuBackground.png */; };
+		33F2A7131A2A868E0097C314 /* shakeAgain.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7121A2A868E0097C314 /* shakeAgain.png */; };
+		33F2A7151A2A9F3E0097C314 /* startScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F2A7141A2A9F3E0097C314 /* startScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		33BA84831A11D37A00283339 /* Shake BiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake BiteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BA84881A11D37A00283339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33BA84891A11D37A00283339 /* Shake_BiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_BiteTests.swift; sourceTree = "<group>"; };
+		33F2A7001A2A79A50097C314 /* bagel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bagel.png; sourceTree = "<group>"; };
+		33F2A7021A2A79BC0097C314 /* oe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oe.png; sourceTree = "<group>"; };
+		33F2A7031A2A79BC0097C314 /* chipotle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chipotle.png; sourceTree = "<group>"; };
+		33F2A7041A2A79BC0097C314 /* starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks.png; sourceTree = "<group>"; };
+		33F2A7051A2A79BC0097C314 /* everyday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = everyday.png; sourceTree = "<group>"; };
+		33F2A7101A2A81BD0097C314 /* menuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBackground.png; sourceTree = "<group>"; };
+		33F2A7121A2A868E0097C314 /* shakeAgain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shakeAgain.png; sourceTree = "<group>"; };
+		33F2A7141A2A9F3E0097C314 /* startScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startScreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +106,14 @@
 		33BA84711A11D37900283339 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33F2A7101A2A81BD0097C314 /* menuBackground.png */,
+				33F2A7121A2A868E0097C314 /* shakeAgain.png */,
+				33F2A7021A2A79BC0097C314 /* oe.png */,
+				33F2A7031A2A79BC0097C314 /* chipotle.png */,
+				33F2A7141A2A9F3E0097C314 /* startScreen.png */,
+				33F2A7041A2A79BC0097C314 /* starbucks.png */,
+				33F2A7051A2A79BC0097C314 /* everyday.png */,
+				33F2A7001A2A79A50097C314 /* bagel.png */,
 				33BA84721A11D37900283339 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +216,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F2A7011A2A79A50097C314 /* bagel.png in Resources */,
 				33BA84791A11D37A00283339 /* Main.storyboard in Resources */,
 				33BA847E1A11D37A00283339 /* LaunchScreen.xib in Resources */,
+				33F2A7131A2A868E0097C314 /* shakeAgain.png in Resources */,
+				33F2A7081A2A79BC0097C314 /* starbucks.png in Resources */,
+				33F2A7071A2A79BC0097C314 /* chipotle.png in Resources */,
+				33F2A7151A2A9F3E0097C314 /* startScreen.png in Resources */,
+				33F2A7091A2A79BC0097C314 /* everyday.png in Resources */,
+				33F2A7111A2A81BD0097C314 /* menuBackground.png in Resources */,
+				33F2A7061A2A79BC0097C314 /* oe.png in Resources */,
 				33BA847B1A11D37A00283339 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +437,7 @@
 				33BA848F1A11D37A00283339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33BA84901A11D37A00283339 /* Build configuration list for PBXNativeTarget "Shake BiteTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				33BA84921A11D37A00283339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
